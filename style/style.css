@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.wrap .coffeeMachine {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
+.wrap .coffeeMachine .machineElement1 {
+  width: 100%;
+  height: 35%;
+  background-color: #000;
+}
+.wrap .coffeeMachine .machineElement2 {
+  width: 40%;
+  height: 65%;
+  background-color: #000;
+}
+.wrap .coffeeMachine .machineElement2 .nav {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  right: 15px;
+}
+.wrap .coffeeMachine .machineElement2 .nav .screen {
+  width: 200px;
+  height: 70px;
+  background-color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .coffeeMachine .machineElement2 .nav .buttons {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wrap .coffeeMachine .machineElement2 .nav .buttons .row {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrap .coffeeMachine .machineElement2 .nav .buttons .row button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: rgb(202, 200, 200);
+}
+.wrap .coffeeMachine .machineElement3 {
+  width: 60%;
+  height: 5%;
+  background-color: #000;
+  position: relative;
+  left: 272px;
+  bottom: 32px;
+}
+.wrap .coffeeMachine .cupPlace {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  bottom: 594px;
+  left: 274px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.wrap .coffeeMachine .cupPlace .cup {
+  width: 60%;
+  height: 50%;
+  color: #000;
+  font-size: 40px;
+  background-image: url(../img/cup.png);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .coffeeMachine .cupPlace .cup .drink {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  position: relative;
+  bottom: 25px;
+  right: 30px;
+}
+.wrap .coffeeMachine .pouringElement1 {
+  width: 50px;
+  height: 80px;
+  background-color: #000;
+  position: relative;
+  left: 415px;
+  bottom: 455px;
+}
+.wrap .coffeeMachine .pouringElement2 {
+  width: 30px;
+  height: 60px;
+  background-color: #000;
+  position: relative;
+  left: 425px;
+  bottom: 455px;
+}
+.wrap .coffeeMachine .ready {
+  width: 178px;
+  height: 252px;
+  position: relative;
+  bottom: 846px;
+  left: 357px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .coffeeMachine .ready .pouringCoffee {
+  width: 20px;
+  height: 70px;
+  background-color: rgb(58, 36, 2);
+  position: relative;
+  right: 6px;
+}
+.wrap .coffeeMachine .ready .readyDrink {
+  width: 153px;
+  height: 170px;
+  background-color: rgb(58, 36, 2);
+  border-radius: 0% 0% 20% 20%;
+  position: relative;
+  bottom: 45px;
+}
+.wrap .waterPlace {
+  width: 15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wrap .waterPlace .waterContainer {
+  width: 100%;
+  height: 80%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.wrap .waterPlace .waterContainer .water {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(31, 112, 233);
+  border-radius: 7px;
+}
+.wrap .waterPlace .addWater {
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  background-color: rgb(150, 149, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.wrap .milkPlace {
+  width: 15%;
+  height: 70%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wrap .milkPlace .addMilk {
+  width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  background-color: rgb(150, 149, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.wrap .milkPlace .milkContainer {
+  width: 100%;
+  height: 80%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.wrap .milkPlace .milkContainer .milk {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}/*# sourceMappingURL=style.css.map */
